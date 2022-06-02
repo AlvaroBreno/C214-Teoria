@@ -11,7 +11,7 @@ on:
 
 defaults:
   run:
-    working-directory: Design-Pattern Strategy/test
+    working-directory: Design-Pattern Strategy/src
     
 jobs:
   build:
