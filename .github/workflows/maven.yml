@@ -27,6 +27,6 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
-      run: mvn -B Design-Pattern Strategy/src/test/java/Strategy/ --file pom.xml
+      run: mvn -B 'Design-Pattern Strategy/' --file pom.xml
     - name: Teste
       run: mvn clean test
