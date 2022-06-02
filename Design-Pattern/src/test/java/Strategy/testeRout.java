@@ -32,4 +32,5 @@ public class testeRout {
         String decisao = navegar.decideRota(walk);
         assertEquals(decisao, String.valueOf(6.666666666666667));
     }
+
 }
